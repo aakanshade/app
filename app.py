@@ -5,7 +5,7 @@ def create_app():
 
     @app.route('/', methods=['GET'])
     def root():
-        return "testing for scm partho"
+        return "Final Testing"
 
     @app.route('/version', methods=['GET'])
     def version():
