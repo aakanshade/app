@@ -5,7 +5,7 @@ def create_app():
 
     @app.route('/', methods=['GET'])
     def root():
-        return "welcome to flask app 2 new"
+        return "testing for scm part"
 
     @app.route('/version', methods=['GET'])
     def version():
