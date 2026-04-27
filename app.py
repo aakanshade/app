@@ -5,7 +5,7 @@ def create_app():
 
     @app.route('/', methods=['GET'])
     def root():
-        return "welcome to flask app"
+        return "welcome to flask app 2 new"
 
     @app.route('/version', methods=['GET'])
     def version():
